@@ -1,0 +1,99 @@
+<html>
+<head>
+	<style>
+		body
+		{
+			background-color: lightGray;
+			color:white;
+		}
+		ul
+		{
+			list-style:none;
+			margin:0px;
+			height:22px;
+			line-height:20px;
+			padding:0px;
+			font-size:20px;
+
+		}
+		ul li
+		{
+			float:left;
+			//padding:2px;
+			width:160px;
+			margin:2px;
+			height:40px;
+			font:sans-serif;
+			line-height: 40px;
+			background-color: black;
+			opacity:0.85;
+			font-size:20px;
+			text-decoration:none;
+			display : block;
+			text-align:center;
+		}
+		ul li a
+		{
+			text-decoration: none;
+			text-align:center;
+			display:block;
+
+		}
+		ul li a:hover
+		{
+			background-color: green;
+		}
+		ul li ul li
+		{
+			display:none;
+		}
+		ul li:hover ul li
+		{
+			display:block;
+		}
+		ul li a:visited 
+		{
+			background-color: red;
+		}
+		ul li a:link
+		{
+			background-color: aqua;
+		}
+	</style>
+</head>
+	<body>
+		<title>Navigation Bar Example</title>
+		<ul>
+			<li><a>Home</a></li>
+			<li><a>Technologies</a>
+				<ul>
+					<li><a>Salesforce</a></li>
+					<li><a>Zoho</a></li>
+					<li><a>Netsuite</a></li>
+				</ul></li>
+			<li><a>Languages</a>
+				<ul>
+					<li><a>C Lang</a></li>
+					<li><a>Python</a></li>
+					<li><a>Java</a></li>
+					<li><a>Apex</a></li>
+					<li><a>Visualforce</a></li>
+					
+				</ul></li>
+			<li><a>Main Roles</a>
+				<ul>
+					<li><a>CEO</a></li>
+					<li><a>HR</a></li>
+					<li><a>Admin</a></li>
+				</ul></li>
+			</li>
+			<li><a>Contact</a>
+				<ul>
+					<li><a>Technical Team</a></li>
+					<li><a>Project Team</a></li>
+					<li><a>Admin Team</a></li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
